@@ -109,3 +109,7 @@ a {
 a:hover {
 	color: #4da3ff;
 }
+.side-menu ul ul {
+	margin-left: 12px;
+	font-size: 0.95em;
+}
