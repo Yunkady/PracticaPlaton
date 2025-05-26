@@ -4,6 +4,29 @@
 		<meta charset="utf-8" />
 		<title>Цветовая схема сайта</title>
 		<link rel="stylesheet" href="../css/style-light.css" />
+		<style>
+			.palette {
+				width: 100%;
+				border-collapse: collapse;
+				margin: 18px 0;
+				font-size: 15px;
+			}
+			.palette th,
+			.palette td {
+				border: 1px solid #cdd3e0;
+				padding: 8px 10px;
+				text-align: left;
+			}
+			.palette th {
+				background: #f4f7fb;
+				font-weight: 700;
+			}
+			.swatch {
+				width: 60px;
+				height: 24px;
+				border: 1px solid #cdd3e0;
+			}
+		</style>
 	</head>
 	<body>
 		<table id="wrapper">
@@ -17,8 +40,8 @@
 					/>
 				</td>
 				<td class="title">
-					ГБПОУ «ПЕРМСКИЙ ПОЛИТЕХНИЧЕСКИЙ КОЛЛЕДЖ ИМ. Н.Г. СЛАВЯНОВА»<br />
-					<span class="theme"
+					ГБПОУ «ПЕРМСКИЙ ПОЛИТЕХНИЧЕСКИЙ КОЛЛЕДЖ ИМ. Н.Г. СЛАВЯНОВА»<br /><span
+						class="theme"
 						>Европейские критерии безопасности ИТ (ITSEC)</span
 					>
 				</td>
@@ -81,9 +104,82 @@
 					<p class="pic">
 						<img src="../img/color-wheel.png" width="320" alt="Цветовой круг" />
 					</p>
-					<p class="pic">
-						<img src="../img/palette.png" width="320" alt="Коды цветов" />
-					</p>
+
+					<table class="palette">
+						<tr>
+							<th>Элемент / назначение</th>
+							<th>Цвет</th>
+							<th>HEX</th>
+							<th>RGB</th>
+						</tr>
+						<tr>
+							<td>Фон (светлая)</td>
+							<td><span class="swatch" style="background: #fdfdff"></span></td>
+							<td>#fdfdff</td>
+							<td>253&nbsp;253&nbsp;255</td>
+						</tr>
+						<tr>
+							<td>Текст (светлая)</td>
+							<td><span class="swatch" style="background: #20232a"></span></td>
+							<td>#20232a</td>
+							<td>32&nbsp;35&nbsp;42</td>
+						</tr>
+						<tr>
+							<td>Ссылка (светлая)</td>
+							<td><span class="swatch" style="background: #0f4c81"></span></td>
+							<td>#0f4c81</td>
+							<td>15&nbsp;76&nbsp;129</td>
+						</tr>
+						<tr>
+							<td>Ссылка hover</td>
+							<td><span class="swatch" style="background: #4da3ff"></span></td>
+							<td>#4da3ff</td>
+							<td>77&nbsp;163&nbsp;255</td>
+						</tr>
+						<tr>
+							<td>Меню фон (светлая)</td>
+							<td><span class="swatch" style="background: #f4f7fb"></span></td>
+							<td>#f4f7fb</td>
+							<td>244&nbsp;247&nbsp;251</td>
+						</tr>
+						<tr>
+							<td>Подвал фон</td>
+							<td><span class="swatch" style="background: #e9eef7"></span></td>
+							<td>#e9eef7</td>
+							<td>233&nbsp;238&nbsp;247</td>
+						</tr>
+						<tr>
+							<td>Фон (тёмная)</td>
+							<td><span class="swatch" style="background: #111317"></span></td>
+							<td>#111317</td>
+							<td>17&nbsp;19&nbsp;23</td>
+						</tr>
+						<tr>
+							<td>Текст (тёмная)</td>
+							<td><span class="swatch" style="background: #e6e8ef"></span></td>
+							<td>#e6e8ef</td>
+							<td>230&nbsp;232&nbsp;239</td>
+						</tr>
+						<tr>
+							<td>Ссылка (тёмная)</td>
+							<td><span class="swatch" style="background: #7ac0ff"></span></td>
+							<td>#7ac0ff</td>
+							<td>122&nbsp;192&nbsp;255</td>
+						</tr>
+						<tr>
+							<td>Меню фон (тёмная)</td>
+							<td><span class="swatch" style="background: #181a1f"></span></td>
+							<td>#181a1f</td>
+							<td>24&nbsp;26&nbsp;31</td>
+						</tr>
+						<tr>
+							<td>Главное меню фон</td>
+							<td><span class="swatch" style="background: #1a1c22"></span></td>
+							<td>#1a1c22</td>
+							<td>26&nbsp;28&nbsp;34</td>
+						</tr>
+					</table>
+
 					<p class="pic">
 						<img
 							src="../img/light-screenshot.png"

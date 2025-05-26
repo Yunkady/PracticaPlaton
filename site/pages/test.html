@@ -6,12 +6,10 @@
 		<link rel="stylesheet" href="../css/style-light.css" />
 		<style>
 			.og {
-				height: 405px;
-				width: 820px;
-				background: #fff;
-				border: 0;
-				overflow-y: scroll;
+				width: 100%;
+				height: auto;
 				margin: 0 5px;
+				overflow: visible;
 				text-align: justify;
 			}
 			.og input[type='button'],
@@ -33,8 +31,8 @@
 					/>
 				</td>
 				<td class="title">
-					ГБПОУ «ПЕРМСКИЙ ПОЛИТЕХНИЧЕСКИЙ КОЛЛЕДЖ ИМ. Н.Г. СЛАВЯНОВА»<br />
-					<span class="theme"
+					ГБПОУ «ПЕРМСКИЙ ПОЛИТЕХНИЧЕСКИЙ КОЛЛЕДЖ ИМ. Н.Г. СЛАВЯНОВА»<br /><span
+						class="theme"
 						>Европейские критерии безопасности ИТ (ITSEC)</span
 					>
 				</td>
@@ -81,264 +79,172 @@
 					<div class="og">
 						<form id="quiz">
 							<p>
-								<font color="#692200">
-									<b> 1. Какой тег является строчным? </b>
-								</font>
-								<br />
-								<label>
-									<input type="radio" name="TD" value="0" />
-									div
-								</label>
-								<br />
-								<label>
-									<input type="radio" name="TD" value="1" />
-									span
-								</label>
-								<br />
-								<label>
-									<input type="radio" name="TD" value="0" />
-									td
-								</label>
-								<br />
-								<label>
-									<input type="radio" name="TD" value="0" />
-									i
-								</label>
+								<b>1. Какой тег является строчным?</b><br />
+								<label><input type="radio" name="TD" value="0" /> div</label
+								><br />
+								<label><input type="radio" name="TD" value="1" /> span</label
+								><br />
+								<label><input type="radio" name="TD" value="0" /> td</label
+								><br />
+								<label><input type="radio" name="TD" value="0" /> i</label>
 							</p>
 							<p>
-								<font color="#692200">
-									<b>
-										2. С помощью чего можно задать стиль в зависимости от
-										состояния элемента или его положения в документе?
-									</b>
-								</font>
-								<br />
-								<label>
-									<input type="radio" name="bordercolor" value="1" />
-									псевдокласса
-								</label>
-								<br />
-								<label>
-									<input type="radio" name="bordercolor" value="1" />
-									псевдоэлемента
-								</label>
-								<br />
-								<label>
-									<input type="radio" name="bordercolor" value="0" />
+								<b
+									>2. С помощью чего можно задать стиль в зависимости от
+									состояния элемента или его положения в документе?</b
+								><br />
+								<label
+									><input type="radio" name="bordercolor" value="1" />
+									псевдокласса</label
+								><br />
+								<label
+									><input type="radio" name="bordercolor" value="1" />
+									псевдоэлемента</label
+								><br />
+								<label
+									><input type="radio" name="bordercolor" value="0" />
 									size</label
+								><br />
+								<label
+									><input type="radio" name="bordercolor" value="0" />
+									font</label
 								>
-								<br />
-								<label>
-									<input type="radio" name="bordercolor" value="0" />
-									font
-								</label>
 							</p>
 							<p>
-								<font color="#692200">
-									<b> 3. Как называются активные ссылки? </b>
-								</font>
-								<br />
-								<label>
-									<input type="radio" name="cellspacing" value="0" />
-									link
-								</label>
-								<br />
-								<label>
-									<input type="radio" name="cellspacing" value="0" />
-									visited
-								</label>
-								<br />
-								<label>
-									<input type="radio" name="cellspacing" value="0" />
-									cellpadding
-								</label>
-								<br />
-								<label>
-									<input type="radio" name="cellspacing" value="1" />
-									active
-								</label>
+								<b>3. Как называются активные ссылки?</b><br />
+								<label
+									><input type="radio" name="cellspacing" value="0" />
+									link</label
+								><br />
+								<label
+									><input type="radio" name="cellspacing" value="0" />
+									visited</label
+								><br />
+								<label
+									><input type="radio" name="cellspacing" value="0" />
+									cellpadding</label
+								><br />
+								<label
+									><input type="radio" name="cellspacing" value="1" />
+									active</label
+								>
 							</p>
 							<p>
-								<font color="#692200">
-									<b> 4. Для ссылок определено 4 псевдокласса. Какие? </b>
-								</font>
-								<br />
-								<label>
-									<input type="radio" name="valign" value="0" />
-									div, span, link, title
-								</label>
-								<br />
-								<label>
-									<input type="radio" name="valign" value="0" />
-									align, valign, link, active
-								</label>
-								<br />
-								<label>
-									<input type="radio" name="valign" value="0" />
-									visited, link, hover, bgcolor
-								</label>
-								<br />
-								<label>
-									<input type="radio" name="valign" value="1" />
-									link, visited, active, hover
-								</label>
+								<b>4. Для ссылок определено 4 псевдокласса. Какие?</b><br />
+								<label
+									><input type="radio" name="valign" value="0" /> div, span,
+									link, title</label
+								><br />
+								<label
+									><input type="radio" name="valign" value="0" /> align, valign,
+									link, active</label
+								><br />
+								<label
+									><input type="radio" name="valign" value="0" /> visited, link,
+									hover, bgcolor</label
+								><br />
+								<label
+									><input type="radio" name="valign" value="1" /> link, visited,
+									active, hover</label
+								>
 							</p>
 							<p>
-								<font color="#692200">
-									<b>
-										5. Какой псевдокласс применяется для блочных элементов?
-									</b>
-								</font>
-								<br />
-								<label>
-									<input type="radio" name="rowspan" value="0" />
-									first-letter
-								</label>
-								<br />
-								<label>
-									<input type="radio" name="rowspan" value="1" />
-								</label>
-								first-line
-								<br />
-								<label>
-									<input type="radio" name="rowspan" value="0" />
-									style
-								</label>
-								<br />
-								<label>
-									<input type="radio" name="rowspan" value="0" />
-									font-size
-								</label>
+								<b>5. Какой псевдокласс применяется для блочных элементов?</b
+								><br />
+								<label
+									><input type="radio" name="rowspan" value="0" />
+									first-letter</label
+								><br />
+								<label
+									><input type="radio" name="rowspan" value="1" />
+									first-line</label
+								><br />
+								<label
+									><input type="radio" name="rowspan" value="0" /> style</label
+								><br />
+								<label
+									><input type="radio" name="rowspan" value="0" />
+									font-size</label
+								>
 							</p>
 							<p>
-								<font color="#692200">
-									<b>
-										6. Какой псевдокласс позволяет задать форматирование первой
-										буквы текста?
-									</b>
-								</font>
-								<br />
-								<label>
-									<input type="radio" name="colspan" value="0" />
-									cellpadding
-								</label>
-								<br />
-								<label> <input type="radio" name="colspan" value="0" /> </label
-								>first-line
-								<br />
-								<label>
-									<input type="radio" name="colspan" value="1" />
-									first-letter
-								</label>
-								<br />
-								<label>
-									<input type="radio" name="colspan" value="0" />
+								<b
+									>6. Какой псевдокласс позволяет задать форматирование первой
+									буквы текста?</b
+								><br />
+								<label
+									><input type="radio" name="colspan" value="0" />
+									cellpadding</label
+								><br />
+								<label
+									><input type="radio" name="colspan" value="0" />
+									first-line</label
+								><br />
+								<label
+									><input type="radio" name="colspan" value="1" />
+									first-letter</label
+								><br />
+								<label
+									><input type="radio" name="colspan" value="0" />
 									rowspan</label
 								>
 							</p>
 							<p>
-								<font color="#692200">
-									<b>
-										7. Как называются ссылки, которые посещались пользователем?
-									</b>
-								</font>
-								<br />
-								<label>
-									<input type="radio" name="widht" value="0" />
-									hover
-								</label>
-								<br />
-								<label>
-									<input type="radio" name="widht" value="1" />
-								</label>
-								visited
-								<br />
-								<label>
-									<input type="radio" name="widht" value="0" />
-									link
-								</label>
-								<br />
-								<label>
-									<input type="radio" name="widht" value="0" />
-									active
-								</label>
-							</p>
-							<p>
-								<font color="#692200">
-									<b> 8. Какое свойство не работает для строчных элементов? </b>
-								</font>
-								<br />
-								<label>
-									<input type="radio" name="TR" value="0" />
-									select
-								</label>
-								<br />
-								<label>
-									<input type="radio" name="TR" value="0" />
-									td</label
+								<b
+									>7. Как называются ссылки, которые посещались
+									пользователем?</b
+								><br />
+								<label
+									><input type="radio" name="widht" value="0" /> hover</label
+								><br />
+								<label
+									><input type="radio" name="widht" value="1" /> visited</label
+								><br />
+								<label><input type="radio" name="widht" value="0" /> link</label
+								><br />
+								<label
+									><input type="radio" name="widht" value="0" /> active</label
 								>
-								<br />
-								<label>
-									<input type="radio" name="TR" value="1" />
-									padding-top
-								</label>
-								<br />
-								<label>
-									<input type="radio" name="TR" value="0" />
-									input
-								</label>
 							</p>
 							<p>
-								<font color="#692200">
-									<b>
-										9. Как называются ссылки, которые НЕ посещались
-										пользователем?
-									</b>
-								</font>
-								<br />
-								<label>
-									<input type="radio" name="height" value="0" />
-									active
-								</label>
-								<br />
-								<label>
-									<input type="radio" name="height" value="0" /> hover
-								</label>
-								<br />
-								<label>
-									<input type="radio" name="height" value="0" />
-									width
-								</label>
-								<br />
-								<label>
-									<input type="radio" name="height" value="1" />
-									link
-								</label>
+								<b>8. Какое свойство не работает для строчных элементов?</b
+								><br />
+								<label><input type="radio" name="TR" value="0" /> select</label
+								><br />
+								<label><input type="radio" name="TR" value="0" /> td</label
+								><br />
+								<label
+									><input type="radio" name="TR" value="1" /> padding-top</label
+								><br />
+								<label><input type="radio" name="TR" value="0" /> input</label>
 							</p>
 							<p>
-								<font color="#692200">
-									<b> 10. Какой тег является блочным? </b>
-								</font>
-								<br />
-								<label>
-									<input type="radio" name="Table" value="0" />
-									b
-								</label>
-								<br />
-								<label>
-									<input type="radio" name="Table" value="1" />
-									div
-								</label>
-								<br />
-								<label>
-									<input type="radio" name="Table" value="0" />
-									span
-								</label>
-								<br />
-								<label>
-									<input type="radio" name="Table" value="0" />
-									a
-								</label>
+								<b
+									>9. Как называются ссылки, которые НЕ посещались
+									пользователем?</b
+								><br />
+								<label
+									><input type="radio" name="height" value="0" /> active</label
+								><br />
+								<label
+									><input type="radio" name="height" value="0" /> hover</label
+								><br />
+								<label
+									><input type="radio" name="height" value="0" /> width</label
+								><br />
+								<label
+									><input type="radio" name="height" value="1" /> link</label
+								>
+							</p>
+							<p>
+								<b>10. Какой тег является блочным?</b><br />
+								<label><input type="radio" name="Table" value="0" /> b</label
+								><br />
+								<label><input type="radio" name="Table" value="1" /> div</label
+								><br />
+								<label><input type="radio" name="Table" value="0" /> span</label
+								><br />
+								<label><input type="radio" name="Table" value="0" /> a</label>
 							</p>
 							<p>
 								<input type="button" id="calc" value="Показать результат" />
