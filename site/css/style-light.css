@@ -4,18 +4,22 @@
 	box-sizing: border-box;
 }
 body {
-	font: 16px/1.4 Arial, Helvetica, sans-serif;
-	background: #fff;
-	color: #000;
+	font: 16px/1.45 Arial, Helvetica, sans-serif;
+	background: #fdfdff;
+	color: #20232a;
 }
 #wrapper {
 	width: 1000px;
-	margin: 0 auto;
+	margin: 40px auto;
 	border-collapse: collapse;
 	table-layout: fixed;
+	border: 1px solid #cdd3e0;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 #wrapper td {
-	border: 1px solid #000;
+	border: 1px solid #cdd3e0;
 }
 .header .logo {
 	width: 100px;
@@ -23,43 +27,55 @@ body {
 	text-align: center;
 }
 .header .title {
-	text-align: center;
-	font-size: 22px;
+	font-size: 23px;
 	font-weight: 700;
-	line-height: 1.2;
+	line-height: 1.25;
+	text-align: center;
 }
 .header .theme {
 	font-size: 18px;
 	font-weight: 400;
+	color: #0f4c81;
 }
 .side-menu {
 	width: 200px;
+	background: #f4f7fb;
 	vertical-align: top;
-	padding: 10px;
+	padding: 12px 10px;
 }
 .side-menu ul {
 	list-style: none;
-	margin-top: 8px;
+	margin-top: 10px;
 }
 .side-menu a {
+	display: block;
+	padding: 6px 4px;
 	text-decoration: none;
-	color: #000;
+	color: #0f4c81;
+	border-radius: 4px;
+	transition: 0.15s;
 }
 .side-menu a:hover {
-	text-decoration: underline;
+	background: #4da3ff;
+	color: #fff;
 }
 .content {
-	padding: 15px;
+	padding: 18px 18px 22px;
 	text-align: justify;
 	text-indent: 1.25em;
 }
 .content h1 {
-	margin-bottom: 15px;
+	margin-bottom: 18px;
 	text-align: center;
+	color: #0f4c81;
 }
 .pic {
+	margin: 22px 0;
 	text-align: center;
-	margin: 20px 0;
+}
+.pic img {
+	border: 1px solid #cdd3e0;
+	border-radius: 6px;
 }
 .main-menu .menu-inner {
 	width: 100%;
@@ -70,15 +86,26 @@ body {
 }
 .main-menu a {
 	display: block;
-	padding: 12px 15px;
+	padding: 13px 14px;
 	text-decoration: none;
-	color: #000;
+	color: #0f4c81;
+	transition: 0.15s;
 }
 .main-menu a:hover {
-	background: #f0f0f0;
+	background: #4da3ff;
+	color: #fff;
 }
 .footer {
+	background: #e9eef7;
 	text-align: center;
 	font-size: 13px;
-	padding: 10px;
+	padding: 12px;
+	color: #505a6b;
+}
+a {
+	color: #0f4c81;
+	transition: 0.15s;
+}
+a:hover {
+	color: #4da3ff;
 }

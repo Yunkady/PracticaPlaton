@@ -1,16 +1,28 @@
 @import url('site/css/style-light.css');
-
 body {
-	background: #1d1d1f;
-	color: #e5e5e7;
+	background: #111317;
+	color: #e6e8ef;
 }
 a {
-	color: #61dafb;
+	color: #4da3ff;
+	transition: 0.15s;
 }
 a:hover {
 	text-decoration: underline;
+	color: #7ac0ff;
+}
+#wrapper {
+	box-shadow: 0 6px 20px rgba(0, 0, 0, 0.55);
 }
 .main-menu,
 .footer {
-	background: #2b2b2e;
+	background: #1a1c22;
+}
+.side-menu {
+	background: #181a1f;
+}
+.main-menu a:hover,
+.side-menu a:hover {
+	background: #20222a;
+	color: #7ac0ff;
 }
