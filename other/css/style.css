@@ -1,0 +1,90 @@
+/* -------------- Общие настройки -------------- */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font: 16px/1.4 Arial, Helvetica, sans-serif;
+}
+
+/* -------------- Таблица-контейнер -------------- */
+#wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+#wrapper td {
+	border: 1px solid #000;
+}
+
+/* -------------- Шапка -------------- */
+.header .logo {
+	width: 100px;
+	height: 100px;
+	text-align: center;
+}
+.header .title {
+	text-align: center;
+	font-size: 26px;
+	font-weight: 700;
+}
+
+/* -------------- Тематическое меню -------------- */
+.side-menu {
+	width: 200px;
+	vertical-align: top;
+	padding: 10px;
+}
+.side-menu ul {
+	list-style: none;
+	margin-top: 10px;
+}
+.side-menu a {
+	text-decoration: none;
+	color: #000;
+}
+.side-menu a:hover {
+	text-decoration: underline;
+}
+
+/* -------------- Контент -------------- */
+.content {
+	padding: 15px;
+	text-align: justify;
+	text-indent: 1.25em;
+}
+.content h1 {
+	margin-bottom: 15px;
+	text-align: center;
+}
+.pic {
+	text-align: center;
+	margin: 20px 0;
+}
+
+/* -------------- Основное меню -------------- */
+.main-menu .menu-inner {
+	width: 100%;
+	border-collapse: collapse;
+}
+.main-menu td {
+	text-align: center;
+}
+.main-menu a {
+	display: block;
+	padding: 12px 15px;
+	text-decoration: none;
+	color: #000;
+}
+.main-menu a:hover {
+	background: #f0f0f0;
+}
+
+/* -------------- Подвал -------------- */
+.footer {
+	text-align: center;
+	font-size: 13px;
+	padding: 10px;
+}
