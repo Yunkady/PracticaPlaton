@@ -1,6 +1,5 @@
-@import url('site/style-light.css'); /* берём всю типографику */
+@import url('site/css/style-light.css');
 
-/* –––– ТЁМНАЯ СХЕМА ТОЛЬКО ДЛЯ index.html –––– */
 body {
 	background: #1d1d1f;
 	color: #e5e5e7;
