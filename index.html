@@ -2,84 +2,104 @@
 <html lang="ru">
 	<head>
 		<meta charset="utf-8" />
-		<title>Главная</title>
-		<link rel="stylesheet" href="other/css/style.css" />
+		<title>ITSEC – Главная</title>
+		<link rel="stylesheet" href="style-dark.css" />
 	</head>
-
 	<body>
-		<!-- ­­­—------------------------ Главная таблица------------------------ -->
 		<table id="wrapper">
-			<!-- ───────── Шапка ───────── -->
+			<!-- Шапка -->
+			<!-- вставляем общий фрагмент -->
 			<tr class="header">
 				<td class="logo">
-					<img src="logo-ppk.png" alt="Логотип ППК" width="100" height="100" />
-				</td>
-				<td class="title">Название сайта</td>
-				<td class="logo">
 					<img
-						src="logo-dev.png"
-						alt="Логотип разработчика"
+						src="site/img/logo-ppk.png"
 						width="100"
 						height="100"
+						alt="Логотип ППК"
+					/>
+				</td>
+				<td class="title">
+					ГБПОУ «ПЕРМСКИЙ ПОЛИТЕХНИЧЕСКИЙ КОЛЛЕДЖ ИМ. Н.Г. СЛАВЯНОВА»<br />
+					<span class="theme"
+						>Европейские критерии безопасности&nbsp;ИТ (ITSEC)</span
+					>
+				</td>
+				<td class="logo">
+					<img
+						src="site/img/emblem-itsec.png"
+						width="100"
+						height="100"
+						alt="Эмблема ITSEC"
 					/>
 				</td>
 			</tr>
 
-			<!-- ───────── Рабочая зона ───────── -->
+			<!-- Рабочая зона -->
 			<tr class="work-area">
-				<!-- Тематическое меню (вертикальное) -->
+				<!-- Левое меню -->
 				<td class="side-menu">
-					<strong>Тематическое меню</strong>
+					<strong>Разделы</strong>
 					<ul>
-						<li><a href="#">Лекция 1</a></li>
-						<li><a href="#">Лекция 2</a></li>
-						<li><a href="#">Использованные ресурсы</a></li>
+						<li><a href="site/itsec-overview.html">Обзор ITSEC</a></li>
+						<li><a href="site/f-c1.html">Класс F-C1</a></li>
+						<li><a href="site/f-c2.html">Класс F-C2</a></li>
+						<li><a href="site/f-b1.html">Класс F-B1</a></li>
+						<li><a href="site/f-b2.html">Класс F-B2</a></li>
+						<li><a href="site/f-b3.html">Класс F-B3</a></li>
+						<li><a href="site/f-in.html">Класс F-IN</a></li>
+						<li><a href="site/f-av.html">Класс F-AV</a></li>
+						<li><a href="site/f-di.html">Класс F-DI</a></li>
+						<li><a href="site/f-dc.html">Класс F-DC</a></li>
+						<li><a href="site/f-dx.html">Класс F-DX</a></li>
+						<li><a href="site/e0.html">Уровни адекватности E0-E6</a></li>
 					</ul>
 				</td>
 
 				<!-- Контент -->
 				<td class="content" colspan="2">
 					<h1>Добро пожаловать!</h1>
-
 					<p>
-						Это пример главной страницы, созданной по заданному шаблону. Вёрстка
-						выполнена таблицами, размеры ячеек фиксированы, ширина всей таблицы
-						— 1000 px, поэтому контент не ломает структуру окна.
+						Перед вами учебный проект, посвящённый
+						<strong
+							>Европейским критериям безопасности информационных технологий
+							(ITSEC)</strong
+						>. Он включает 20+ страниц материала, интерактивный тест, кроссворд
+						и глоссарий терминов.
 					</p>
-
-					<p>
-						Разместите здесь ваш основной текст. Шрифт без засечек, выравнивание
-						по ширине, абзацный отступ 1,25 см.
-					</p>
-
 					<p class="pic">
-						<img src="sample.jpg" alt="Пример изображения" width="300" />
-						<br />Рис.&nbsp;1 – Подпись к изображению
+						<img
+							src="site/img/dark-screenshot.png"
+							width="320"
+							alt="Скриншот главной"
+						/>
+						<br />Рис.&nbsp;1 — тёмная главная страница сайта
 					</p>
 				</td>
 			</tr>
 
-			<!-- ───────── Основное меню (горизонтальное) ───────── -->
+			<!-- Горизонтальное меню -->
 			<tr class="main-menu">
 				<td colspan="3">
 					<table class="menu-inner">
 						<tr>
 							<td><a href="index.html">Главная</a></td>
-							<td><a href="oformlenie.html">Оформление</a></td>
-							<td><a href="validnost.html">Валидность</a></td>
-							<td><a href="crossword.html">Кроссворд</a></td>
-							<td><a href="test.html">Тест</a></td>
-							<td><a href="glossary.html">Глоссарий</a></td>
-							<td><a href="site-map.html">Карта&nbsp;сайта</a></td>
-							<td><a href="author.html">Автор</a></td>
+							<td><a href="site/color-scheme.html">Цветовая&nbsp;схема</a></td>
+							<td><a href="site/validity.html">Валидность</a></td>
+							<td><a href="site/docs/crossword.docx">Кроссворд</a></td>
+							<td><a href="site/test.html">Тест</a></td>
+							<td><a href="site/glossary.html">Глоссарий</a></td>
+							<td><a href="site/site-map.html">Карта&nbsp;сайта</a></td>
+							<td><a href="site/developer.html">Разработчик</a></td>
 						</tr>
 					</table>
 				</td>
 			</tr>
 
-			<!-- ───────── Подвал ───────── -->
+			<!-- Подвал -->
 			<tr class="footer">
-				<td colspan="3">© 2025 Название сайта. Все права защищены.</td>
+				<td colspan="3">
+					© 2025 Иванов И.&nbsp;И. / ГБПОУ «ППК им. Н.Г. Славянова»
+				</td>
 			</tr>
 		</table>
 	</body>
