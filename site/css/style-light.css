@@ -3,6 +3,7 @@ body {
 	height: 100%;
 	margin: 0;
 }
+
 * {
 	margin: 0;
 	padding: 0;
@@ -56,33 +57,38 @@ body {
 }
 
 .side-menu {
-	width: 300px;
+	width: 320px;
+	min-width: 320px;
 	background: #f4f7fb;
 	vertical-align: top;
-	padding: 12px 10px;
+	padding: 14px 12px;
 	overflow: auto;
 }
+
 .side-menu ul,
 .side-menu ul ul {
 	list-style: none;
 	margin: 10px 0 0;
 	padding: 0;
 }
+
 .side-menu a {
 	display: block;
-	padding: 6px 4px;
+	padding: 8px 8px;
 	text-decoration: none;
-	color: #0f4c81;
+	color: #7ac0ff;
 	border-radius: 4px;
+	overflow-wrap: anywhere;
 	transition: 0.15s;
-	white-space: nowrap;
+	box-sizing: border-box;
 }
 .side-menu a:hover {
 	background: #4da3ff;
 	color: #fff;
 }
+
 .side-menu ul ul {
-	margin-left: 12px;
+	margin-left: 14px;
 	font-size: 0.95em;
 }
 
@@ -97,6 +103,7 @@ body {
 	text-align: center;
 	color: #0f4c81;
 }
+
 .pic {
 	margin: 22px 0;
 	text-align: center;
