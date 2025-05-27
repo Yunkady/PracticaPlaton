@@ -220,3 +220,11 @@ body.theme-dark .theme-menu .levels ul {
 	padding: 4px 10px;
 	white-space: nowrap;
 }
+.logodev {
+	width: 100px;
+	height: 100px;
+	padding: 0;
+	box-sizing: border-box;
+	vertical-align: middle;
+	text-align: center;
+}
