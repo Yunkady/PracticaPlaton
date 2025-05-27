@@ -1,13 +1,5 @@
 @import url('style-light.css');
 
-body.theme-dark .theme-menu a {
-	background: #006363;
-	color: #fff;
-}
-body.theme-dark .theme-menu a:hover {
-	background: #1d7373;
-	color: #fff;
-}
 body {
 	background: #111317;
 	color: #e6e8ef;
@@ -25,9 +17,54 @@ a:hover {
 #wrapper {
 	height: 100vh;
 	width: 1250px;
+	margin: auto;
 	border-collapse: collapse;
 	table-layout: fixed;
 	box-shadow: 0 6px 20px rgba(0, 0, 0, 0.55);
+}
+#wrapper > tr:first-child td {
+	height: 100px;
+}
+#wrapper > tr.main-menu td {
+	height: 48px;
+}
+#wrapper > tr.footer td {
+	height: 40px;
+}
+
+.side-menu {
+	width: 320px;
+	min-width: 320px;
+	background: #181a1f;
+	padding: 14px 12px;
+	overflow: auto;
+}
+
+.side-menu ul,
+.side-menu ul ul {
+	list-style: none;
+	margin: 10px 0 0;
+	padding: 0;
+}
+
+.side-menu a {
+	display: block;
+	padding: 8px 8px;
+	text-decoration: none;
+	color: #7ac0ff; /* или #0f4c81 */
+	border-radius: 4px;
+	overflow-wrap: anywhere; /* длинные слова аккуратно переносятся */
+	transition: 0.15s;
+	box-sizing: border-box;
+}
+.side-menu a:hover {
+	background: #20222a;
+	color: #7ac0ff;
+}
+
+.side-menu ul ul {
+	margin-left: 14px;
+	font-size: 0.95em;
 }
 
 .main-menu,
