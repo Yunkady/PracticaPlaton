@@ -149,3 +149,127 @@ a {
 a:hover {
 	color: #4da3ff;
 }
+.theme-menu nav {
+	width: 100%;
+}
+.theme-menu .hmenu {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.theme-menu .hmenu > li {
+	position: relative;
+}
+.theme-menu .hmenu a {
+	display: block;
+	padding: 8px 12px;
+	text-decoration: none;
+}
+.theme-menu .hmenu li:hover > a {
+	filter: brightness(1.1);
+}
+.theme-menu .levels ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+.theme-menu .levels:hover ul {
+	display: block;
+}
+.theme-menu a {
+	background: #33cccc;
+	color: #fff;
+}
+.theme-menu a:hover {
+	background: #5ccccc;
+	color: #fff;
+}
+/* ───── Горизонтальное тематическое меню ───────────────────────── */
+.theme-menu {
+	background: #009999;
+}
+body.theme-dark .theme-menu {
+	background: #006363;
+}
+
+.theme-menu .hmenu {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 4px;
+	margin: 0;
+	padding: 6px;
+	list-style: none;
+}
+.theme-menu .hmenu > li {
+	position: relative;
+}
+
+.theme-menu a {
+	display: block;
+	padding: 6px 14px;
+	font: 16px/1 Arial, sans-serif;
+	color: #fff;
+	background: #1d7373;
+	border: 1px solid rgba(255, 255, 255, 0.25);
+	border-radius: 4px;
+	text-decoration: none;
+	transition: 0.15s;
+}
+body.theme-dark .theme-menu a {
+	background: #009999;
+}
+
+.theme-menu a:hover {
+	background: #33cccc;
+}
+body.theme-dark .theme-menu a:hover {
+	background: #5ccccc;
+}
+
+/* выпадающий список уровней */
+.theme-menu .levels ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	list-style: none;
+	margin: 0;
+	padding: 4px;
+	background: #1d7373;
+}
+body.theme-dark .theme-menu .levels ul {
+	background: #009999;
+}
+.theme-menu .levels:hover ul {
+	display: block;
+}
+
+.theme-menu .levels ul a {
+	border: none;
+	border-radius: 0;
+	padding: 4px 10px;
+	white-space: nowrap;
+}
+.theme-menu .logodev {
+	width: 100px;
+	height: 100px;
+	padding: 0;
+	text-align: center;
+	vertical-align: middle;
+}
+.theme-menu .logodev img {
+	display: block;
+	width: 100px;
+	height: 100px;
+}
+.theme-menu .nav-cell {
+	padding: 0;
+}
