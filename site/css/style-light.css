@@ -27,69 +27,25 @@ body {
 	overflow: hidden;
 	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
-#wrapper > tr:first-child td {
-	height: 100px;
-}
-#wrapper > tr.main-menu td {
-	height: 48px;
-}
-#wrapper > tr.footer td {
-	height: 40px;
-}
+
 #wrapper td {
 	border: 1px solid #cdd3e0;
 }
 
 .header .logo {
 	width: 100px;
-	text-align: center;
 }
 .header .title {
 	font-size: 23px;
 	font-weight: 700;
 	line-height: 1.25;
+	width: 1150px;
 	text-align: center;
 }
 .header .theme {
 	font-size: 18px;
 	font-weight: 400;
 	color: #0f4c81;
-}
-
-.side-menu {
-	width: 320px;
-	min-width: 320px;
-	background: #f4f7fb;
-	vertical-align: top;
-	padding: 14px 12px;
-	overflow: auto;
-}
-
-.side-menu ul,
-.side-menu ul ul {
-	list-style: none;
-	margin: 10px 0 0;
-	padding: 0;
-}
-
-.side-menu a {
-	display: block;
-	padding: 8px 8px;
-	text-decoration: none;
-	color: #7ac0ff;
-	border-radius: 4px;
-	overflow-wrap: anywhere;
-	transition: 0.15s;
-	box-sizing: border-box;
-}
-.side-menu a:hover {
-	background: #4da3ff;
-	color: #fff;
-}
-
-.side-menu ul ul {
-	margin-left: 14px;
-	font-size: 0.95em;
 }
 
 .content {
@@ -148,128 +104,4 @@ a {
 }
 a:hover {
 	color: #4da3ff;
-}
-.theme-menu nav {
-	width: 100%;
-}
-.theme-menu .hmenu {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 2px;
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-.theme-menu .hmenu > li {
-	position: relative;
-}
-.theme-menu .hmenu a {
-	display: block;
-	padding: 8px 12px;
-	text-decoration: none;
-}
-.theme-menu .hmenu li:hover > a {
-	filter: brightness(1.1);
-}
-.theme-menu .levels ul {
-	display: none;
-	position: absolute;
-	top: 100%;
-	left: 0;
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
-}
-.theme-menu .levels:hover ul {
-	display: block;
-}
-.theme-menu a {
-	background: #33cccc;
-	color: #fff;
-}
-.theme-menu a:hover {
-	background: #5ccccc;
-	color: #fff;
-}
-/* ───── Горизонтальное тематическое меню ───────────────────────── */
-.theme-menu {
-	background: #009999;
-}
-body.theme-dark .theme-menu {
-	background: #006363;
-}
-
-.theme-menu .hmenu {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 4px;
-	margin: 0;
-	padding: 6px;
-	list-style: none;
-}
-.theme-menu .hmenu > li {
-	position: relative;
-}
-
-.theme-menu a {
-	display: block;
-	padding: 6px 14px;
-	font: 16px/1 Arial, sans-serif;
-	color: #fff;
-	background: #1d7373;
-	border: 1px solid rgba(255, 255, 255, 0.25);
-	border-radius: 4px;
-	text-decoration: none;
-	transition: 0.15s;
-}
-body.theme-dark .theme-menu a {
-	background: #009999;
-}
-
-.theme-menu a:hover {
-	background: #33cccc;
-}
-body.theme-dark .theme-menu a:hover {
-	background: #5ccccc;
-}
-
-/* выпадающий список уровней */
-.theme-menu .levels ul {
-	display: none;
-	position: absolute;
-	top: 100%;
-	left: 0;
-	list-style: none;
-	margin: 0;
-	padding: 4px;
-	background: #1d7373;
-}
-body.theme-dark .theme-menu .levels ul {
-	background: #009999;
-}
-.theme-menu .levels:hover ul {
-	display: block;
-}
-
-.theme-menu .levels ul a {
-	border: none;
-	border-radius: 0;
-	padding: 4px 10px;
-	white-space: nowrap;
-}
-.theme-menu .logodev {
-	width: 100px;
-	height: 100px;
-	padding: 0;
-	text-align: center;
-	vertical-align: middle;
-}
-.theme-menu .logodev img {
-	display: block;
-	width: 100px;
-	height: 100px;
-}
-.theme-menu .nav-cell {
-	padding: 0;
 }
