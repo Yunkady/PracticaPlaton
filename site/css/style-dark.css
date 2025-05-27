@@ -1,5 +1,11 @@
 @import url('style-light.css');
 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body {
 	background: #111317;
 	color: #e6e8ef;
@@ -20,51 +26,80 @@ a:hover {
 	margin: auto;
 	border-collapse: collapse;
 	table-layout: fixed;
-	box-shadow: 0 6px 20px rgba(0, 0, 0, 0.55);
-}
-#wrapper > tr:first-child td {
-	height: 100px;
-}
-#wrapper > tr.main-menu td {
-	height: 48px;
-}
-#wrapper > tr.footer td {
-	height: 40px;
 }
 
-.side-menu {
-	width: 320px;
-	min-width: 320px;
+.header .logo {
+	height: 100px;
+	width: 100px;
+	text-align: center;
+}
+.header .title {
+	font-size: 23px;
+	font-weight: 700;
+	line-height: 1.25;
+	text-align: center;
+}
+.header .theme {
+	font-size: 18px;
+	font-weight: 400;
+	color: #0f4c81;
+}
+
+.header,
+.side-menu-row {
+	height: 98px;
+}
+
+.side-menu-row {
 	background: #181a1f;
-	padding: 14px 12px;
+}
+.side-menu-inner {
+	width: 100%;
+	border-collapse: collapse;
+}
+.side-menu {
+	width: 100%;
+	background: #181a1f;
+	padding: 8px 12px;
 	overflow: auto;
 }
 
-.side-menu ul,
-.side-menu ul ul {
+.side-menu ul {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px;
 	list-style: none;
-	margin: 10px 0 0;
+	margin: 0;
 	padding: 0;
 }
 
-.side-menu a {
-	display: block;
-	padding: 8px 8px;
-	text-decoration: none;
-	color: #7ac0ff; /* или #0f4c81 */
+.side-menu ul ul {
+	display: none;
+	position: absolute;
+	background: #181a1f;
+	padding: 6px;
 	border-radius: 4px;
-	overflow-wrap: anywhere; /* длинные слова аккуратно переносятся */
-	transition: 0.15s;
-	box-sizing: border-box;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
+
+.side-menu li:hover > ul {
+	display: block;
+}
+
+.side-menu a {
+	display: inline-block;
+	padding: 4px 8px;
+	text-decoration: none;
+	color: #7ac0ff;
+	border-radius: 4px;
+	transition: 0.15s;
+	white-space: nowrap;
+	font-size: 14px;
+}
+
 .side-menu a:hover {
 	background: #20222a;
 	color: #7ac0ff;
-}
-
-.side-menu ul ul {
-	margin-left: 14px;
-	font-size: 0.95em;
 }
 
 .main-menu,
