@@ -1,0 +1,153 @@
+<head>
+	<link rel="stylesheet" href="../css/style-light.css" />
+</head>
+<h1>Проверочный тест по ITSEC</h1>
+<div class="og">
+	<form id="quiz">
+		<p>
+			<b>1. Что означает аббревиатура ITSEC?</b><br />
+			<label
+				><input type="radio" name="TD" value="0" /> Information Technology
+				Security Evaluation Criteria</label
+			><br />
+			<label
+				><input type="radio" name="TD" value="1" /> Information Technology
+				Security Evaluation Criteria</label
+			><br />
+			<label
+				><input type="radio" name="TD" value="0" /> International Technology
+				Security Evaluation Criteria</label
+			><br />
+			<label
+				><input type="radio" name="TD" value="0" /> Information Technology
+				Security European Criteria</label
+			>
+		</p>
+		<p>
+			<b>2. Какой класс безопасности ITSEC соответствует классу C2 по TCSEC?</b
+			><br />
+			<label><input type="radio" name="bordercolor" value="0" /> F-C1</label
+			><br />
+			<label><input type="radio" name="bordercolor" value="1" /> F-C2</label
+			><br />
+			<label><input type="radio" name="bordercolor" value="0" /> F-B1</label
+			><br />
+			<label><input type="radio" name="bordercolor" value="0" /> F-B2</label>
+		</p>
+		<p>
+			<b>3. Какой уровень адекватности ITSEC является минимальным?</b><br />
+			<label><input type="radio" name="cellspacing" value="0" /> E1</label
+			><br />
+			<label><input type="radio" name="cellspacing" value="1" /> E0</label
+			><br />
+			<label><input type="radio" name="cellspacing" value="0" /> E2</label
+			><br />
+			<label><input type="radio" name="cellspacing" value="0" /> E3</label>
+		</p>
+		<p>
+			<b>4. Какие классы безопасности относятся к специальным классам F?</b
+			><br />
+			<label
+				><input type="radio" name="valign" value="0" /> F-C1, F-C2, F-B1</label
+			><br />
+			<label
+				><input type="radio" name="valign" value="0" /> F-B1, F-B2, F-B3</label
+			><br />
+			<label
+				><input type="radio" name="valign" value="0" /> F-IN, F-AV, F-DI</label
+			><br />
+			<label
+				><input type="radio" name="valign" value="1" /> F-IN, F-AV, F-DI, F-DC,
+				F-DX</label
+			>
+		</p>
+		<p>
+			<b
+				>5. Какой класс безопасности ITSEC обеспечивает наивысший уровень
+				защиты?</b
+			><br />
+			<label><input type="radio" name="rowspan" value="0" /> F-C2</label><br />
+			<label><input type="radio" name="rowspan" value="0" /> F-B1</label><br />
+			<label><input type="radio" name="rowspan" value="1" /> F-B3</label><br />
+			<label><input type="radio" name="rowspan" value="0" /> F-DX</label>
+		</p>
+		<p>
+			<b>6. Что оценивает уровень адекватности E6 в ITSEC?</b><br />
+			<label
+				><input type="radio" name="colspan" value="0" /> Формальную
+				проверку</label
+			><br />
+			<label
+				><input type="radio" name="colspan" value="0" /> Структурное
+				тестирование</label
+			><br />
+			<label
+				><input type="radio" name="colspan" value="1" /> Формальную
+				верификацию</label
+			><br />
+			<label
+				><input type="radio" name="colspan" value="0" /> Функциональное
+				тестирование</label
+			>
+		</p>
+		<p>
+			<b
+				>7. Какой класс безопасности ITSEC обеспечивает защиту от
+				непреднамеренных ошибок?</b
+			><br />
+			<label><input type="radio" name="widht" value="0" /> F-C1</label><br />
+			<label><input type="radio" name="widht" value="1" /> F-IN</label><br />
+			<label><input type="radio" name="widht" value="0" /> F-AV</label><br />
+			<label><input type="radio" name="widht" value="0" /> F-DI</label>
+		</p>
+		<p>
+			<b
+				>8. Какой уровень адекватности ITSEC требует формального доказательства
+				безопасности?</b
+			><br />
+			<label><input type="radio" name="TR" value="0" /> E3</label><br />
+			<label><input type="radio" name="TR" value="0" /> E4</label><br />
+			<label><input type="radio" name="TR" value="1" /> E5</label><br />
+			<label><input type="radio" name="TR" value="0" /> E6</label>
+		</p>
+		<p>
+			<b>9. Какой класс безопасности ITSEC обеспечивает защиту от вирусов?</b
+			><br />
+			<label><input type="radio" name="height" value="0" /> F-IN</label><br />
+			<label><input type="radio" name="height" value="1" /> F-AV</label><br />
+			<label><input type="radio" name="height" value="0" /> F-DI</label><br />
+			<label><input type="radio" name="height" value="0" /> F-DC</label>
+		</p>
+		<p>
+			<b
+				>10. Какой класс безопасности ITSEC обеспечивает защиту от утечки
+				данных?</b
+			><br />
+			<label><input type="radio" name="Table" value="0" /> F-IN</label><br />
+			<label><input type="radio" name="Table" value="0" /> F-AV</label><br />
+			<label><input type="radio" name="Table" value="0" /> F-DI</label><br />
+			<label><input type="radio" name="Table" value="1" /> F-DX</label>
+		</p>
+		<p>
+			<input type="button" id="calc" value="Показать результат" />
+			<input type="reset" value="Сбросить ответы" />
+		</p>
+		Ваш результат: <input type="text" name="result" readonly />
+	</form>
+	<script>
+		calc.onclick = function () {
+			const f = this.form
+			f.result.value =
+				+f.Table.value +
+				+f.TD.value +
+				+f.TR.value +
+				+f.bordercolor.value +
+				+f.valign.value +
+				+f.rowspan.value +
+				+f.colspan.value +
+				+f.widht.value +
+				+f.height.value +
+				+f.cellspacing.value
+		}
+	</script>
+</div>
