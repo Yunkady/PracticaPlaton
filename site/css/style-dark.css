@@ -130,6 +130,10 @@ a:hover {
 	text-indent: 1.25em;
 }
 
+.content ul {
+	list-style-position: inside;
+}
+
 .content iframe {
 	text-indent: 0;
 }

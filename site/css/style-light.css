@@ -248,3 +248,7 @@ iframe {
 .palette tr:hover {
 	background: #e9eef7;
 }
+
+.content ul {
+	list-style-position: inside;
+}
