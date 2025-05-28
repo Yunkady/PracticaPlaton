@@ -224,9 +224,34 @@ iframe {
 	height: 100%;
 }
 
-/* Стили для содержимого iframe */
-iframe body {
-	padding: 24px 32px;
-	max-width: 1200px;
-	margin: 0 auto;
+.palette {
+	width: 100%;
+	max-width: 800px;
+	margin: 32px auto;
+	border-collapse: collapse;
+	border: 2px solid #ad66d5;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 2px 8px rgba(113, 9, 170, 0.08);
+}
+
+.palette th,
+.palette td {
+	padding: 12px 16px;
+	text-align: left;
+	border: 1px solid #cdd3e0;
+}
+
+.palette th {
+	background: #ad66d5;
+	color: #fff;
+	font-weight: 600;
+}
+
+.palette tr:nth-child(even) {
+	background: #f4f7fb;
+}
+
+.palette tr:hover {
+	background: #e9eef7;
 }
