@@ -119,10 +119,6 @@ a:hover {
 	table-layout: fixed;
 }
 
-.main-menu td {
-	text-align: center;
-}
-
 .content {
 	padding: 18px 18px 22px;
 	overflow: auto;

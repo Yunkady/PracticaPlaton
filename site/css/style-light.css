@@ -36,15 +36,15 @@ body {
 }
 
 .header .title {
-	font-size: 23px;
+	font-size: 15px;
 	font-weight: 700;
 	text-align: center;
 	color: #7109aa;
 }
 
 .header .theme {
-	font-size: 18px;
-	font-weight: 400;
+	font-size: 40px;
+	font-weight: 700;
 	color: #7109aa;
 }
 
@@ -251,4 +251,8 @@ iframe {
 
 .content ul {
 	list-style-position: inside;
+}
+
+.center {
+	text-align: center;
 }
