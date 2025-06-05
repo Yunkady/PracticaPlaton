@@ -1,12 +1,12 @@
 @import url('style-light.css');
 
 body {
-	background: #48036f;
+	background: #000;
 	color: #e6e8ef;
 }
 
 #wrapper {
-	background: #5f2580;
+	background: #48036f;
 	border: 2px solid #9f3ed5;
 }
 
@@ -27,12 +27,12 @@ body {
 }
 .header .title,
 .header .theme {
-	color: #ad66d5;
+	color: white;
 }
 
 .side-menu-row,
 .side-menu {
-	background: #5f2580;
+	background: #7109aa;
 }
 
 .side-menu ul ul {
@@ -42,7 +42,7 @@ body {
 
 .side-menu a,
 .main-menu a {
-	background: #9f3ed5;
+	background: #48036f;
 	color: #fff;
 }
 
@@ -54,11 +54,11 @@ body {
 
 .main-menu,
 .footer {
-	background: #7109aa;
+	background: #48036f;
 }
 
 .main-menu a:hover {
-	background: #ad66d5;
+	background: #7109aa;
 	color: #fff;
 }
 

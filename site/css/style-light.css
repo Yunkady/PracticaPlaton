@@ -39,23 +39,23 @@ body {
 	font-size: 15px;
 	font-weight: 700;
 	text-align: center;
-	color: #7109aa;
+	color: white;
 }
 
 .header .theme {
 	font-size: 40px;
 	font-weight: 700;
-	color: #7109aa;
+	color: white;
 }
 
 .header,
 .side-menu-row {
 	height: 98px;
-	background: #ad66d5;
+	background: #9f3ed4;
 }
 
 .side-menu-row {
-	background: #f4f7fb;
+	background: #9f3ed4;
 }
 
 .side-menu-inner {
@@ -65,7 +65,7 @@ body {
 
 .side-menu {
 	width: 100%;
-	background: #f4f7fb;
+	background: #9f3ed4;
 	padding: 8px 12px;
 	overflow: auto;
 }
@@ -102,7 +102,7 @@ body {
 	font-size: 16px;
 	font-weight: 600;
 	border-radius: 8px;
-	background: #9f3ed5;
+	background: #48036f;
 	color: #fff;
 	transition: background 0.2s, color 0.2s;
 	box-shadow: 0 2px 8px rgba(113, 9, 170, 0.08);
@@ -116,7 +116,8 @@ body {
 
 .main-menu,
 .footer {
-	background: #e9eef7;
+	background: #48036f;
+	color: white;
 }
 
 .main-menu {
@@ -141,7 +142,8 @@ body {
 	display: block;
 	padding: 13px 18px;
 	text-decoration: none;
-	color: #5f2580;
+	color: white;
+	background: #48036f;
 	transition: 0.15s;
 	white-space: nowrap;
 	font-size: 14px;
@@ -149,7 +151,7 @@ body {
 }
 
 .main-menu a:hover {
-	background: #ad66d5;
+	background: #7109aa;
 	color: #fff;
 }
 
