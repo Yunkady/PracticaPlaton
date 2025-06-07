@@ -103,7 +103,7 @@ body {
 	font-weight: 600;
 	border-radius: 8px;
 	background: #48036f;
-	color: #fff;
+	color: #7109aa;
 	transition: background 0.2s, color 0.2s;
 	box-shadow: 0 2px 8px rgba(113, 9, 170, 0.08);
 	border: none;
@@ -111,13 +111,13 @@ body {
 
 .side-menu a:hover {
 	background: #7109aa;
-	color: #fff;
+	color: #48036f;
 }
 
 .main-menu,
 .footer {
 	background: #48036f;
-	color: white;
+	color: #7109aa;
 }
 
 .main-menu {
@@ -142,8 +142,8 @@ body {
 	display: block;
 	padding: 13px 18px;
 	text-decoration: none;
-	color: white;
 	background: #48036f;
+	color: #7109aa;
 	transition: 0.15s;
 	white-space: nowrap;
 	font-size: 14px;
@@ -152,7 +152,7 @@ body {
 
 .main-menu a:hover {
 	background: #7109aa;
-	color: #fff;
+	color: #48036f;
 }
 
 .content {
